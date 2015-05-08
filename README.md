@@ -1,6 +1,5 @@
-[![Build Status](https://travis-ci.org/aaronbenz/timeseriesr.svg?branch=master)](https://travis-ci.org/aaronbenz/timeseriesr)
-[![Coverage Status](https://img.shields.io/coveralls/aaronbenz/timeseriesr.svg)](https://coveralls.io/r/aaronbenz/timeseriesr?branch=master)
-[![codecov.io](http://codecov.io/github/aaronbenz/timeseriesr/coverage.svg?branch=master)](http://codecov.io/github/aaronbenz/timeseriesr?branch=master)
+[![Build Status](https://travis-ci.org/Accenture/timeseriesr.svg?branch=master)](https://travis-ci.org/Accenture/timeseriesr)
+[![codecov.io](http://codecov.io/github/Accenture/timeseriesr/coverage.svg?branch=master)](http://codecov.io/github/Accenture/timeseriesr?branch=master)
 timeseries
 ==========
 This is a work-in-progress R package that will help you calculate and plot time-series data at great speed. 
@@ -15,7 +14,7 @@ install.packages("devtools")
 Load devtools and Download timeseriesr package
 ```r
 library(devtools)
-install_github("aaronbenz/timeseriesr")
+install_github("Accenture/timeseriesr")
 ```
 
 ##Why use the timeseriesr package?
