@@ -3,7 +3,7 @@
 \alias{calc_area}
 \title{Calculate Area Under the Curve}
 \usage{
-calc_area(time_date, value, unit_conversion = 1/1, as_vector = FALSE,
+calc_area(time_date, value, unit_conversion = 1, as_vector = FALSE,
   diff_time = FALSE, neg_area = FALSE, na.replace = vreplace, ...)
 }
 \arguments{
@@ -31,11 +31,11 @@ under the curve. Its apprach is to use Reimann Left Sums is and aimed towards ti
 \examples{
 time <- 1:10
  value <- sin(1:10)
- examples
+
  calc_area(time, value)
- calc_area(time, value, T)
- calc_area(time, value, diff_time = T)
- calc_area(time, value, neg_area = T)
- calc_area(time, value, T, T)
+ calc_area(time, value, TRUE)
+ calc_area(time, value, diff_time = TRUE)
+ calc_area(time, value, neg_area = TRUE)
+ calc_area(time, value, TRUE, TRUE)
 }
 
